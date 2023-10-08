@@ -1,0 +1,105 @@
+body{
+    height: 100vh;
+}
+
+main{
+    width: 70vw;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5,1fr);
+    gap: 15px;
+
+}
+div:first-child{
+    grid-column: 1/1;
+    grid-row: 1/1;
+background-color: rgba(98, 112, 236, 0.86);
+}
+div:nth-child(2){
+    grid-column: 2/2;
+    grid-row: 1/2;
+    background-color: rgb(47, 219, 176);
+}
+div:nth-child(3){
+    grid-column: 3/3;
+    grid-row: 1/2;
+    background-color: rgb(123, 196, 49);
+}
+div:nth-child(4){
+    grid-column: 4/4;
+    grid-row: 1/2;
+    background-color: rgb(157, 31, 211);
+}
+div:nth-child(5){
+    grid-column: 5/5;
+    grid-row: 1/2;
+    background-color: rgb(222, 46, 99);
+}
+div:nth-child(6){
+    grid-column: 5/5;
+    grid-row: 2/3;
+    background-color: chocolate;
+}
+div:nth-child(7){
+    grid-column: 5/5;
+    grid-row: 3/4;
+    background-color: rgb(103, 112, 209);
+}
+div:nth-child(8){
+    grid-column: 5/5;
+    grid-row: 4/5;
+    background-color: rgb(227, 59, 59);
+}
+div:nth-child(9){
+    grid-column: 5/5;
+    grid-row: 5/6;
+    background-color: rgb(72, 218, 61);
+}
+div:nth-child(10){
+    grid-column: 4/5;
+    grid-row: 5/5;
+    background-color: darkmagenta;
+}
+div:nth-child(11){
+    grid-column: 3/4;
+    grid-row: 5/5;
+    background-color: rgb(233, 203, 97);
+}
+div:nth-child(12){
+    grid-column: 2/3;
+    grid-row: 5/5;
+    background-color: white;
+}
+div:nth-child(13){
+    grid-column: 1/2;
+    grid-row: 5/5;
+    background-color: rgb(193, 123, 33);
+}
+div:nth-child(14){
+    grid-column: 1/1;
+    grid-row: 4/4;
+    background-color: yellow;
+}
+div:nth-child(15){
+    grid-column: 1/1;
+    grid-row: 3/3;
+    background-color: rgb(92, 86, 199);
+}
+div:nth-child(16){
+    grid-column: 1/1;
+    grid-row: 2/2;
+    background-color: rgb(80, 80, 41);
+}
+div{
+    display: flex;            
+    justify-content: center;            
+    align-items: center;
+    font-size: 20px;
+}
+div {
+
+    padding: 20px;
+    border: 5px solid black;
+    padding: 15px;
+}
